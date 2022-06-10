@@ -26,7 +26,7 @@ function App() {
 
       <main class="page landing-page" style={{ paddingTop: '0rem' }}>
 
-        <section class="clean-block clean-hero" style={{ backgroundImage: 'url("assets/img/scenery/image1.jpg?h=8a8726e3975bbd81b495745e96e6982a")', color: 'rgba(9, 162, 255, 0.85)', minHeight: '386px' }}>
+        <section class="clean-block clean-hero" style={{ backgroundImage: 'url("img/image1.jpg")', color: 'rgba(9, 162, 255, 0.85)', minHeight: '386px' }}>
           <div class="text">
             <h2>We are here to provide communication for people of all nationalities, countries and religions. Only a conversation can lead to agreement.<br /></h2><button className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline bg-gray-100 text-gray-800 hover:bg-gray-200 py-3 px-4 leading-tight text-xl" type="button" data-bs-target="#contactus"><a href="#contactus" style={{ color: '#0d6efd', textDecoration: 'none' }}>Contact Us</a></button>
           </div>
@@ -38,7 +38,7 @@ function App() {
             </div>
             <div class="flex flex-wrap  items-center">
               <div class="md:w-1/2 pr-4 pl-4">
-                <img class="max-w-full h-auto border-1 border-gray-200 rounded p-1" alt="img1" src="assets/img/scenery/image2.jpg?h=afe298d199161174001b25940703b51a" />
+                <img class="max-w-full h-auto border-1 border-gray-200 rounded p-1" alt="about_us" src="img/image2.jpg" />
               </div>
               <div class="md:w-1/2 pr-4 pl-4">
                 <div class="getting-started-info">
@@ -84,7 +84,7 @@ function App() {
             <div class="flex flex-wrap  justify-center">
               <div class="sm:w-1/2 pr-4 pl-4 lg:w-1/3 pr-4 pl-4">
                 <div class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 text-center clean-card">
-                  <img Name="w-full rounded rounded-t w-full block" alt="img2" src="assets/img/avatars/avatar1.jpg?h=47cd51e5675e894d54a96ebec190c800" />
+                  <img Name="w-full rounded rounded-t w-full block" alt="team1" src="img/image4.jpg" />
                   <div class="flex-auto p-6 info">
                     <h4 class="mb-3">Egor Zudin</h4>
                     <p class="mb-0">СЕО, blockchain entrepreneur&nbsp;</p>
@@ -103,7 +103,8 @@ function App() {
                 </div>
               </div>
               <div class="sm:w-1/2 pr-4 pl-4 lg:w-1/3 pr-4 pl-4">
-                <div class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 text-center clean-card"><img className="w-full rounded rounded-t w-full block" src="assets/img/avatars/avatar2.jpg?h=77c2aa40e00337f131a8732a1496eac6" />
+                <div class="relative flex flex-col min-w-0 rounded break-words border bg-white border-1 border-gray-300 text-center clean-card">
+                  <img class="w-full rounded rounded-t w-full block" alt="team2" src="img/image5.jpg" />
                   <div class="flex-auto p-6 info">
                     <h4 class="mb-3">Aleksandr Rakhlenko</h4>
                     <p class="mb-0">Project - manager, planning and monitoring of the objectives specialist&nbsp;&nbsp;<br /></p>
@@ -144,7 +145,7 @@ function App() {
               </div>
         </form>
       </section>
-      
+
       <footer class="page-footer dark">
         <div class="container mx-auto sm:px-4">
           <div class="flex flex-wrap ">
