@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import TopField from './TopField';
 import ContactUs from './ContactUs';
+import AboutUs from './AboutUs';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,6 +12,7 @@ root.render(
   <React.StrictMode>
     <TopField/>
     <ContactUs/>
+    <AboutUs/>
   </React.StrictMode>
 );
 
