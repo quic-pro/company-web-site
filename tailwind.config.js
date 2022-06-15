@@ -3,8 +3,9 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'mainBlue':'#09a2ff',
-        'menuGray':'#000000b3'
+        'mainBlue':'#09a2ff', // for top bg
+        'menuGray':'#000000b3', // for menu text
+        'textBlue':'#3b99e0', // eg for "About Us"
       }
     },
   },
