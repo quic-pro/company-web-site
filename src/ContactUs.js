@@ -1,14 +1,11 @@
-import bgImg from './img/image1.jpg';
-import aboutUsImg from './img/image2.jpg';
-
 function ContactUs() {
     return (
         <div>
             {/* <main class="page landing-page" style={{ paddingTop: '0rem' }}> */}
             {/* Background Image */}
-            <section class="bg-no-repeat bg-cover bg-mainBlue opacity-80" style={{ backgroundImage: 'url("img/image1.jpg")', color: 'rgba(9, 162, 255, 0.85)', minHeight: '386px' }}>
-                <div class="w-1/2 text-center whitespace-normal">
-                    <h2 class="text-white text-3xl font-bold">
+            <section class="bg-no-repeat bg-[url('img/image1.jpg')] bg-cover bg-mainBlue opacity-80" style={{ minHeight: '386px' }}>
+                <div class="w-1/2 text-center whitespace-normal mx-auto	">
+                    <h2 class=" py-7 text-white text-3xl font-medium">
                         We are here to provide communication for people of all nationalities, countries and religions. Only a conversation can lead to agreement.<br />
                     </h2>
                     <button class="ьinline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline bg-gray-100 text-gray-800 hover:bg-gray-200 py-3 px-4 leading-tight text-xl" type="button" data-bs-target="#contactus">
@@ -23,3 +20,5 @@ function ContactUs() {
 }
 
 export default ContactUs;
+
+// color: 'rgba(9, 162, 255, 0.85)',  backgroundImage: 'url("img/image1.jpg")',
