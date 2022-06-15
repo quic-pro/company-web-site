@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import TopField from './TopField';
+import ContactUs from './ContactUs';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <TopField/>
+    <ContactUs/>
   </React.StrictMode>
 );
 

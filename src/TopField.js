@@ -3,23 +3,6 @@ import React from 'react';
 const mobileMenu = document.getElementById('mobileMenu'); //target element that will be collapsed or expanded
 const buttonMenu = document.getElementById('buttonMenu'); //set a trigger element
 
-const options = {
-    buttonMenu: buttonMenu,
-    onCollapse: () => {
-        console.log('element has been collapsed')
-    },
-    onExpand: () => {
-        console.log('element has been expanded')
-    },
-    onToggle: () => {
-        console.log('element has been toggled')
-    }
-  };
-
-// const collapse = new Collapse(mobileMenu, options);
-// const clickMenuButton = event =>  mobileMenu; onClick={clickMenuButton}
-
-
 
 function TopField() {
     return (
