@@ -8,9 +8,9 @@ function AboutUs() {
                     <div class="block-heading">
                         <h2 class="text-textBlue text-3xl font-medium text-center py-9">About Us</h2>
                     </div>
-                    <div class="flex flex-wrap  items-center">
-                        <div class="md:w-1/2 pr-4 pl-4">
-                            <img src={aboutUsImg} class="max-w-full h-auto border-1 border-gray-200 rounded p-1" alt="about_us" />
+                    <div class="flex flex-wrap items-center px-4">
+                        <div class="md:w-1/2 px-4">
+                            <img src={aboutUsImg} class="max-w-full h-auto border-solid border-2 border-gray-200 rounded p-1" alt="about_us" />
                         </div>
                         <div class="md:w-1/2 pr-4 pl-4">
                             <div class="getting-started-info">
