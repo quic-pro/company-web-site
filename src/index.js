@@ -5,6 +5,7 @@ import App from './App';
 import TopField from './TopField';
 import ContactUs from './ContactUs';
 import AboutUs from './AboutUs';
+import Projects from './Projects';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +14,7 @@ root.render(
     <TopField/>
     <ContactUs/>
     <AboutUs/>
+    <Projects/>
   </React.StrictMode>
 );
 
