@@ -6,7 +6,7 @@ function AboutUs() {
             <section id="aboutus" class="clean-block clean-info dark">
                 <div class="container mx-auto sm:px-4">
                     <div class="block-heading">
-                        <h2 class="text-teal-500">About Us</h2>
+                        <h2 class="text-textBlue text-3xl font-medium text-center py-9">About Us</h2>
                     </div>
                     <div class="flex flex-wrap  items-center">
                         <div class="md:w-1/2 pr-4 pl-4">
