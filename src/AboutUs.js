@@ -4,7 +4,7 @@ function AboutUs() {
     return (
         <div>
             <section id="aboutus" class="clean-block clean-info dark">
-                <div class="container mx-auto sm:px-4">
+                <div class="container mx-auto sm:px-4 py-2">
                     <div class="block-heading">
                         <h2 class="text-textBlue text-3xl font-medium text-center py-9">About Us</h2>
                     </div>
