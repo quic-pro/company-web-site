@@ -1,7 +1,7 @@
 function Bottom() {
     return (
         <div>
-            <footer class="page-footer dark">
+            <footer class="page-footer dark bg-bottomBlack">
                 <div class="container mx-auto sm:px-4">
                     <div class="flex flex-wrap ">
                         <div class="sm:w-1/4 pr-4 pl-4">
