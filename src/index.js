@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import App from './App';
 import TopField from './TopField';
 import ContactUs from './ContactUs';
 import AboutUs from './AboutUs';
 import Projects from './Projects';
 import Team from './Team';
 import ContactForm from './ContactForm';
+import Bottom from './Bottom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +20,7 @@ root.render(
     <Projects/>
     <Team/>
     <ContactForm/>
+    <Bottom/>
   </React.StrictMode>
 );
 
