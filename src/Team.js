@@ -8,8 +8,8 @@ function Team() {
             <section id="team" class="clean-block about-us">
                 <div class="container mx-auto sm:px-4">
                     <div class="block-heading">
-                        <h2 class="text-teal-500">Team</h2>
-                        <p>The team of professionals in their fields&nbsp;<br /></p>
+                        <h2 class="text-textBlue text-3xl font-medium text-center pt-9">Team</h2>
+                        <p class="text-center py-7">The team of professionals in their fields&nbsp;<br /></p>
                     </div>
                     <div class="flex flex-wrap  justify-center">
                         <div class="sm:w-1/2 pr-4 pl-4 lg:w-1/3 pr-4 pl-4">

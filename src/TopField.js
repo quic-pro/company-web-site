@@ -6,7 +6,7 @@ const buttonMenu = document.getElementById('buttonMenu'); //set a trigger elemen
 
 function TopField() {
     return (
-        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 ">
+        <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 position: fixed z-50 w-full">
             <div class="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="https://quic.pro/" class="flex items-center">
                     <span class="pt-2 pb-1 ml-14 text-2xl whitespace-no-wrap logo">QUIC-PRO</span>
