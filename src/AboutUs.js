@@ -2,7 +2,7 @@ import aboutUsImg from './img/image2.jpg';
 
 function AboutUs() {
     return (
-        <div>
+        <div class="px-2">
             <section id="aboutus" class="clean-block clean-info dark">
                 <div class="container mx-auto sm:px-4 py-2">
                     <div class="block-heading">

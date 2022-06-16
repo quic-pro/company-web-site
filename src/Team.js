@@ -4,7 +4,7 @@ import photo1 from './img/image5.jpg';
 
 function Team() {
     return (
-        <div>
+        <div class="px-2">
             <section id="team" class="clean-block about-us">
                 <div class="container mx-auto sm:px-4">
                     <div class="block-heading">

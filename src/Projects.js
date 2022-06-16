@@ -1,6 +1,6 @@
 function Projects() {
     return (
-        <div>
+        <div class="px-2">
             <section id="projects" class="clean-block features">
                 <div class="container mx-auto sm:px-4 py-2">
                     <div class="block-heading">
