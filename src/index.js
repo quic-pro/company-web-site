@@ -7,6 +7,7 @@ import ContactUs from './ContactUs';
 import AboutUs from './AboutUs';
 import Projects from './Projects';
 import Team from './Team';
+import ContactForm from './ContactForm';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
     <AboutUs/>
     <Projects/>
     <Team/>
+    <ContactForm/>
   </React.StrictMode>
 );
 
