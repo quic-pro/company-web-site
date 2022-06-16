@@ -4,7 +4,7 @@ function Bottom() {
             <footer class="page-footer dark bg-bottomBlack">
                 <div class="container mx-auto sm:px-4">
                     <div class="flex flex-wrap text-white">
-                        <div class="sm:w-1/4 pr-4 pl-4 ">
+                        <div class="sm:w-1/4 px-4">
                             <h5 class="font-semibold">Address</h5>
                             <ul>
                                 <li><a>651 N Broad St Suite 206<br />Middletown, DE 19709 US<br /></a></li>
