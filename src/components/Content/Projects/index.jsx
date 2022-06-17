@@ -1,7 +1,28 @@
 import React from 'react';
 
+import Project from './Project';
+
 
 export default class Projects extends React.Component {
+    projects = [
+        {
+            direction: 'Cryptography',
+            description: 'Development of technical solutions in the field of cryptography'
+        },
+        {
+            direction: 'Transmission security',
+            description: 'Establishment of the defended and channels of communication'
+        },
+        {
+            direction: 'Blockchain',
+            description: 'Implementation of projects related to blockchain and NFT'
+        },
+        {
+            direction: 'Metaverses',
+            description: 'Combining real world and meta-verses through digital technological introduction'
+        }
+    ];
+
     render() {
         return (
             <section id="Projects" className="px-2 clean-block features">
@@ -10,25 +31,9 @@ export default class Projects extends React.Component {
                         <h2 className="text-textBlue text-3xl font-medium text-center py-9">Projects</h2>
                     </div>
                     <div className="flex flex-wrap  justify-center">
-                        <div className="md:w-2/5 pr-4 pl-4 feature-box"><i className="icon-star icon"/>
-                            <h4 className="font-bold text-xl py-2 pt-5">Cryptography</h4>
-                            <p className="text-sm">Development of technical solutions in the field of
-                                cryptography<br/></p>
-                        </div>
-                        <div className="md:w-2/5 pr-4 pl-4 feature-box"><i className="icon-pencil icon"/>
-                            <h4 className="font-bold text-xl py-2 pt-5">Transmission security</h4>
-                            <p className="text-sm">Establishment of the defended and channels of communication<br/>
-                            </p>
-                        </div>
-                        <div className="md:w-2/5 pr-4 pl-4 feature-box"><i className="icon-screen-smartphone icon"/>
-                            <h4 className="font-bold text-xl py-2 pt-10">Blockchain</h4>
-                            <p className="text-sm">Implementation of projects related to blockchain and NFT<br/></p>
-                        </div>
-                        <div className="md:w-2/5 pr-4 pl-4 feature-box"><i className="icon-refresh icon"/>
-                            <h4 className="font-bold text-xl py-2 pt-10">Metaverses</h4>
-                            <p className="text-sm"> Combining real world and metaverses through digital
-                                technological introduction&nbsp;&nbsp;<br/></p>
-                        </div>
+                        {
+                            this.projects.map((project, index) => <Project project={project} key={index}/>)
+                        }
                     </div>
                 </div>
             </section>

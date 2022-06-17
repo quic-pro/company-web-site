@@ -4,7 +4,7 @@ import React from 'react';
 export default class Index extends React.Component {
     render() {
         return (
-            <section id="Contact" className="px-10" Name="contact-clean">
+            <section id="Contact" className="px-10 contact-clean">
                 <form method="post">
                     <h2 className="text-textBlue text-3xl font-medium text-center py-9">Contact us</h2>
                     <div className="mb-3">

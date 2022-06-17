@@ -5,7 +5,7 @@ export default class Preview extends React.Component {
     render() {
         return (
             <section
-                id="Preview" className="pt-12 bg-no-repeat bg-[url('assets/img/Preview/background.jpg')] bg-cover bg-mainBlue opacity-80"
+                id="Preview" className="pt-12 bg-no-repeat bg-[url('components/Content/Preview/background.jpg')] bg-cover bg-mainBlue opacity-80"
                 style={{minHeight: '386px', color: 'rgba(9, 162, 255, 0.85)'}}>
                 <div className="ph:w-full lg:w-1/2 text-center whitespace-normal mx-auto">
                     <h2 className="py-7 text-white text-3xl ph:text-xl font-medium">
