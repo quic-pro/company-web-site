@@ -13,3 +13,6 @@ package-lock.json
 
 # Production
 /build
+
+# MacOS
+/**/.DS_Store
