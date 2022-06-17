@@ -11,22 +11,22 @@ import { FiRefreshCcw } from 'react-icons/fi';
 export default class Projects extends React.Component {
     projects = [
         {
-            icon: <AiOutlineStar/>,
+            icon: <AiOutlineStar className="fill-textBlue box-border h-10 w-10 pr-4"/>,
             direction: 'Cryptography',
             description: 'Development of technical solutions in the field of cryptography'
         },
         {
-            icon: <BsPencil/>,
+            icon: <BsPencil className="fill-textBlue box-border h-10 w-10 pr-4"/>,
             direction: 'Transmission security',
             description: 'Establishment of the defended and channels of communication'
         },
         {
-            icon: <GiSmartphone/>,
+            icon: <GiSmartphone className="fill-textBlue box-border h-10 w-10 pr-4"/>,
             direction: 'Blockchain',
             description: 'Implementation of projects related to blockchain and NFT'
         },
         {
-            icon: <FiRefreshCcw/>,
+            icon: <FiRefreshCcw className="stroke-textBlue box-border h-10 w-10 pr-4"/>,
             direction: 'Metaverses',
             description: 'Combining real world and meta-verses through digital technological introduction'
         }
