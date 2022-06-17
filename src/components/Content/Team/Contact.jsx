@@ -5,7 +5,7 @@ import PropType from 'prop-types'
 export default class Contact extends React.Component {
     static propTypes = {
         contact: PropType.shape({
-            icon: PropType.string.isRequired,
+            icon: PropType.object.isRequired,
             url: PropType.string.isRequired
         }).isRequired
     };
@@ -14,8 +14,8 @@ export default class Contact extends React.Component {
         const {contact} = this.props;
 
         return (
-            <a href={contact.url}>
-                <i className={contact.icon}/>
+            <a className="m-2" href={contact.url}>
+                {contact.icon}
             </a>
         );
     }
