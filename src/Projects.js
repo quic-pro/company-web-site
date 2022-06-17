@@ -12,20 +12,20 @@ function Projects() {
                         <h2 class="text-textBlue text-3xl font-medium text-center py-9">Projects </h2>
                     </div>
                     <div class="flex flex-wrap  justify-center">
-                        <div class="md:w-2/5 pr-4 pl-4 feature-box"><AiOutlineStar class="fill-textBlue"/>
-                            <h4 class="font-bold text-xl py-2 pt-5">Cryptography</h4>
+                        <div class="md:w-2/5 px-4 pt-5 feature-box"><AiOutlineStar class="fill-textBlue"/>
+                            <h4 class="font-bold text-xl py-2">Cryptography</h4>
                             <p class="text-sm">Development of technical solutions in the field of cryptography<br /></p>
                         </div>
-                        <div class="md:w-2/5 pr-4 pl-4 feature-box"><BsPencil class="fill-textBlue"/>
-                            <h4 class="font-bold text-xl py-2 pt-5">Transmission security</h4>
+                        <div class="md:w-2/5 px-4 pt-5 feature-box"><BsPencil class="fill-textBlue"/>
+                            <h4 class="font-bold text-xl py-2">Transmission security</h4>
                             <p class="text-sm">Establishment of the defended and channels of communication<br /></p>
                         </div>
-                        <div class="md:w-2/5 pr-4 pl-4 feature-box"><GiSmartphone class="fill-textBlue"/>
-                            <h4 class="font-bold text-xl py-2 pt-10">Blockchain</h4>
+                        <div class="md:w-2/5 px-4 pt-5 feature-box"><GiSmartphone class="fill-textBlue"/>
+                            <h4 class="font-bold text-xl py-2">Blockchain</h4>
                             <p class="text-sm">Implementation of projects related to blockchain and NFT<br /></p>
                         </div>
-                        <div class="md:w-2/5 pr-4 pl-4 feature-box"><FiRefreshCcw class="stroke-textBlue"/>
-                            <h4 class="font-bold text-xl py-2 pt-10">Metaverses</h4>
+                        <div class="md:w-2/5 px-4 pt-5 feature-box"><FiRefreshCcw class="stroke-textBlue"/>
+                            <h4 class="font-bold text-xl py-2s">Metaverses</h4>
                             <p class="text-sm"> Combining real world and metaverses through digital technological introduction&nbsp;&nbsp;<br /></p>
                         </div>
                     </div>
