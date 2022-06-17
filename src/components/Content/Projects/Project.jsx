@@ -16,7 +16,7 @@ export default class Project extends React.Component {
 
         return (
             <div className="md:w-2/5 pr-4 pl-4 feature-box">
-                <i className="icon-star icon"/>
+                {project.icon}
                 <h4 className="font-bold text-xl py-2 pt-5">{project.direction}</h4>
                 <p className="text-sm">{project.description}<br/></p>
             </div>
