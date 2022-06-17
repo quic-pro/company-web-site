@@ -1,4 +1,5 @@
 import React from 'react';
+import {FiFacebook, FiLinkedin, FiGithub} from 'react-icons/fi'
 
 import Employee from './Employee';
 
@@ -10,15 +11,15 @@ export default class Team extends React.Component {
             position: 'СЕО, blockchain entrepreneur ',
             contacts: [
                 {
-                    icon: 'icon-social-facebook',
+                    icon: <FiFacebook/>,
                     url: 'https://www.facebook.com/egzudin/'
                 },
                 {
-                    icon: 'icon-social-linkedin',
+                    icon: <FiLinkedin/>,
                     url: 'https://www.linkedin.com/in/egor-zuidn/'
                 },
                 {
-                    icon: 'icon-social-github',
+                    icon: <FiGithub/>,
                     url: 'https://github.com/verificatorrus'
                 }
             ]
@@ -28,11 +29,11 @@ export default class Team extends React.Component {
             position: 'Project - manager, planning and monitoring of the objectives specialist',
             contacts: [
                 {
-                    icon: 'icon-social-facebook',
+                    icon: <FiFacebook/>,
                     url: 'https://www.facebook.com/aleksandr.rakhlenko/'
                 },
                 {
-                    icon: 'icon-social-linkedin',
+                    icon: <FiLinkedin/>,
                     url: 'https://www.linkedin.com/in/aleksandr-rakhlenko-1b3479233/'
                 }
             ]
