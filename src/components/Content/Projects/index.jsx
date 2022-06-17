@@ -2,22 +2,31 @@ import React from 'react';
 
 import Project from './Project';
 
+import { AiOutlineStar } from 'react-icons/ai';
+import { BsPencil } from 'react-icons/bs';
+import { GiSmartphone } from 'react-icons/gi';
+import { FiRefreshCcw } from 'react-icons/fi';
+
 
 export default class Projects extends React.Component {
     projects = [
         {
+            icon: <AiOutlineStar/>,
             direction: 'Cryptography',
             description: 'Development of technical solutions in the field of cryptography'
         },
         {
+            icon: <BsPencil/>,
             direction: 'Transmission security',
             description: 'Establishment of the defended and channels of communication'
         },
         {
+            icon: <GiSmartphone/>,
             direction: 'Blockchain',
             description: 'Implementation of projects related to blockchain and NFT'
         },
         {
+            icon: <FiRefreshCcw/>,
             direction: 'Metaverses',
             description: 'Combining real world and meta-verses through digital technological introduction'
         }
