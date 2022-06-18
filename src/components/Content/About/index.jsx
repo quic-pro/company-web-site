@@ -5,8 +5,8 @@ import backgroundImg from './background.jpg';
 export default class About extends React.Component {
     render() {
         return (
-            <section id="About" className="px-2 clean-block clean-info dark">
-                <div className="container mx-auto sm:px-4 py-2">
+            <section id="About" className="px-2 clean-block clean-info dark" style={{background: '#f6f6f6'}}>
+                <div className="container mx-auto sm:px-4 py-16">
                     <div className="block-heading">
                         <h2 className="text-textBlue text-3xl font-medium text-center py-9">About Us</h2>
                     </div>
