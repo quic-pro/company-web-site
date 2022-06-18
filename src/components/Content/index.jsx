@@ -10,7 +10,7 @@ import Contact from './Contact';
 export default class Content extends React.Component {
     render() {
         return (
-            <main className="Content">
+            <main>
                 <Preview/>
                 <About/>
                 <Projects/>
