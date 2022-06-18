@@ -4,7 +4,7 @@ import React from 'react';
 export default class Header extends React.Component {
     render() {
         return (
-            <header className="h-16 flex justify-between items-center px-14 fixed bg-white w-full shadow-lg shadow-gray-400/30 z-50">
+            <header className="h-15 flex justify-between items-center px-14 fixed bg-white w-full shadow-lg shadow-gray-400/30 z-50">
                 <div className="text-2xl">
                     <a href="/">QUIC-PRO</a>
                 </div>
