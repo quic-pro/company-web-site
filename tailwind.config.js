@@ -2,6 +2,15 @@ module.exports = {
     content: ['./src/**/*.{html,jsx}'],
     theme: {
         extend: {
+            container: {
+                center: true,
+                padding: {
+                    DEFAULT: '1rem',
+                    'lg': '2rem',
+                    'xl': '3rem',
+                    '2xl': '6rem'
+                }
+            },
             colors: {
                 'mainBlue': '#09a2ff', // for top bg
                 'menuGray': '#000000b3', // for menu text
@@ -10,7 +19,7 @@ module.exports = {
                 'botBottomBlack': '#212529', // for the bottest
             },
             spacing: {
-                '15': '3.75rem',
+                '15': '3.75rem'
             }
         },
     },

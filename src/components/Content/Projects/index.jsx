@@ -35,7 +35,7 @@ export default class Projects extends React.Component {
     render() {
         return (
             <section id="Projects" className="px-2 clean-block features">
-                <div className="container mx-auto sm:px-4 py-2">
+                <div className="container sm:px-4 py-2">
                     <div className="block-heading">
                         <h2 className="text-textBlue text-3xl font-medium text-center py-9">Projects</h2>
                     </div>

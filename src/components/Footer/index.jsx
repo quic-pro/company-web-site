@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
     render() {
         return (
             <footer className="page-footer dark bg-bottomBlack">
-                <div className="container mx-auto sm:px-4 mx-auto text-center py-5">
+                <div className="container sm:px-4 mx-auto text-center py-5">
                     <div className="flex flex-wrap text-white">
                         <div className="sm:w-1/2 px-4 py-2">
                             <h5 className="font-semibold py-2">Address</h5>
