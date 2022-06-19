@@ -38,7 +38,7 @@ export default class Header extends React.Component {
                                         <a
                                             key={item.name}
                                             href={item.href}
-                                            className="px-6"
+                                            className="mx-5 p-1 hover:text-gray-800 rounded"
                                             aria-current={item.current ? 'page' : undefined}
                                         >
                                             {item.name}
@@ -55,7 +55,7 @@ export default class Header extends React.Component {
                                         key={item.name}
                                         as="a"
                                         href={item.href}
-                                        className="hover:bg-companyBlue hover:text-white block px-3 py-2 rounded-md text-base"
+                                        className="hover:bg-companyBlue-100 block px-3 py-2 rounded-md text-base"
 
                                         aria-current={item.current ? 'page' : undefined}
                                     >
