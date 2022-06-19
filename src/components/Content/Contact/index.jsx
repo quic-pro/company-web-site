@@ -6,7 +6,7 @@ export default class Index extends React.Component {
         return (
             <section id="Contact" className="bg-companyBlue-100">
                 <div className="container py-20">
-                    <form method="post" className="bg-white p-10 max-w-lg mx-auto">
+                    <form method="post" className="bg-white p-10 max-w-lg mx-auto shadow-lg shadow-gray-400/30">
                         <p className="text-companyBlue-600 text-3xl font-medium text-center">Contact us</p>
                         <div className="mt-5 mb-3">
                             <input
