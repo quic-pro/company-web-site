@@ -11,15 +11,15 @@ export default class Team extends React.Component {
             position: 'СЕО, blockchain entrepreneur ',
             contacts: [
                 {
-                    icon: <FiFacebook/>,
+                    icon: FiFacebook,
                     url: 'https://www.facebook.com/egzudin/'
                 },
                 {
-                    icon: <FiLinkedin/>,
+                    icon: FiLinkedin,
                     url: 'https://www.linkedin.com/in/egor-zuidn/'
                 },
                 {
-                    icon: <FiGithub/>,
+                    icon: FiGithub,
                     url: 'https://github.com/verificatorrus'
                 }
             ]
@@ -29,11 +29,11 @@ export default class Team extends React.Component {
             position: 'Project - manager, planning and monitoring of the objectives specialist',
             contacts: [
                 {
-                    icon: <FiFacebook/>,
+                    icon: FiFacebook,
                     url: 'https://www.facebook.com/aleksandr.rakhlenko/'
                 },
                 {
-                    icon: <FiLinkedin/>,
+                    icon: FiLinkedin,
                     url: 'https://www.linkedin.com/in/aleksandr-rakhlenko-1b3479233/'
                 }
             ]

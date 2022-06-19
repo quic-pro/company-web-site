@@ -12,14 +12,16 @@ export default class Project extends React.Component {
     };
 
     render() {
-        const { project } = this.props;
+        const {project} = this.props;
 
         return (
             <div className="flex flex-row md:w-2/5 px-4 pt-5 feature-box">
-                <div className=" ">{project.icon}</div>
+                <div>
+                    <project.icon className="text-companyBlue box-border h-10 w-10 pr-4"/>
+                </div>
                 <div className="grow">
                     <h4 className="font-bold text-xl py-2">{project.direction}</h4>
-                    <p className="text-sm text-botBottomBlack">{project.description}<br /></p>
+                    <p className="text-sm text-botBottomBlack">{project.description}<br/></p>
                 </div>
             </div>
         );

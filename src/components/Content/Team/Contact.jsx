@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
 
         return (
             <a className="m-2" href={contact.url}>
-                {contact.icon}
+                <contact.icon className="text-companyBlue text-lg"/>
             </a>
         );
     }
