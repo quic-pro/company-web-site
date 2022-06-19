@@ -2,10 +2,10 @@ import React from 'react';
 
 import Project from './Project';
 
-import { AiOutlineStar } from 'react-icons/ai';
-import { BsPencil } from 'react-icons/bs';
-import { GiSmartphone } from 'react-icons/gi';
-import { FiRefreshCcw } from 'react-icons/fi';
+import {AiOutlineStar} from 'react-icons/ai';
+import {BsPencil} from 'react-icons/bs';
+import {GiSmartphone} from 'react-icons/gi';
+import {FiRefreshCcw} from 'react-icons/fi';
 
 
 export default class Projects extends React.Component {
@@ -35,9 +35,9 @@ export default class Projects extends React.Component {
     render() {
         return (
             <section id="Projects" className="px-2 clean-block features">
-                <div className="container sm:px-4 py-2">
-                    <div className="block-heading">
-                        <h2 className="text-companyBlue text-3xl font-medium text-center py-9">Projects</h2>
+                <div className="container py-20">
+                    <div className="mb-8">
+                        <p className="text-3xl font-medium text-companyBlue-600 text-center">Projects</p>
                     </div>
                     <div className="flex flex-wrap  justify-center">
                         {

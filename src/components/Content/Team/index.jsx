@@ -42,11 +42,11 @@ export default class Team extends React.Component {
 
     render() {
         return (
-            <section id="Team" className="px-2 clean-block about-us">
-                <div className="container sm:px-4">
-                    <div className="block-heading">
-                        <h2 className="text-companyBlue text-3xl font-medium text-center pt-9">Team</h2>
-                        <p className="text-center py-7">The team of professionals in their fields&nbsp;<br/></p>
+            <section id="Team">
+                <div className="container py-20">
+                    <div className="mb-8">
+                        <p className="text-3xl font-medium text-companyBlue-600 text-center">Team</p>
+                        <p className="text-center mt-4 text-gray-400">The team of professionals in their fields</p>
                     </div>
                     <div className="flex flex-wrap  justify-center">
                         {this.team.map((employee, index) => <Employee employee={employee} key={index}/>)}
