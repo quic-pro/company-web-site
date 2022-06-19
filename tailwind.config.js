@@ -17,6 +17,7 @@ module.exports = {
                 'textBlue': '#3b99e0', // for headers & icons
                 'bottomBlack': '#2b2f31', // for bottom
                 'botBottomBlack': '#212529', // for the bottest
+                'contactUs': '#f1f7fc' // for the contact form
             },
             spacing: {
                 '15': '3.75rem'
