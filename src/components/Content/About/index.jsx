@@ -1,27 +1,27 @@
 import React from 'react';
 
-import backgroundImg from './background.jpg';
+import coverImg from './cover.jpg';
 
 
 export default class About extends React.Component {
     render() {
         return (
-            <section id="About" style={{background: '#f6f6f6'}}>
-                <div className="container">
-                    <div className="block-heading">
-                        <h2 className="text-textBlue text-3xl font-medium text-center py-9">About Us</h2>
+            <section id="About" className="bg-companyLightGray">
+                <div className="container py-20">
+                    <div className="mb-8">
+                        <p className="text-3xl font-medium text-companyBlue-600 text-center">About Us</p>
                     </div>
                     <div className="flex flex-wrap items-center">
-                        <div className="w-1/2">
-                            <img src={backgroundImg}
-                                 className="max-w-full h-auto border-solid border-2 border-gray-200 rounded p-1"
-                                 alt="about_us"/>
+                        <div className="md:flex-1 bg-white md:mr-3">
+                            <img src={coverImg}
+                                 className="max-w-full h-auto border border-solid border-gray-200 rounded p-1"
+                                 alt="About Us"/>
                         </div>
-                        <div className="w-1/2 px-4">
-                            <div className="getting-started-info">
-                                <p>IT - startup, dealing with the projects in blockchain, telecommunications,
-                                    cryptography and at the intersections of these fields.</p>
-                            </div>
+                        <div className="md:flex-1 md:ml-3">
+                            <p className="md:text-left text-center">
+                                IT - startup, dealing with the projects in blockchain, telecommunications,
+                                cryptography and at the intersections of these fields.
+                            </p>
                         </div>
                     </div>
                 </div>

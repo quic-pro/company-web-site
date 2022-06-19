@@ -1,5 +1,8 @@
 module.exports = {
-    content: ['./src/**/*.{html,jsx}'],
+    content: [
+        './public/**/*.html',
+        './src/**/*.{js,jsx}'
+    ],
     theme: {
         extend: {
             container: {
@@ -12,12 +15,16 @@ module.exports = {
                 }
             },
             colors: {
-                'mainBlue': '#09a2ff', // for top bg
-                'menuGray': '#000000b3', // for menu text
-                'textBlue': '#3b99e0', // for headers & icons
+                'companyLightGray': '#f6f6f6',
+                'companyBlue': {
+                    DEFAULT: '#6bbff1', // companyBlue-500
+                    100: '#f1f7fc',
+                    500: '#6bbff1',
+                    600: '#09a2ff',
+                    700: '#3b99e0',
+                },
                 'bottomBlack': '#2b2f31', // for bottom
-                'botBottomBlack': '#212529', // for the bottest
-                'contactUs': '#f1f7fc' // for the contact form
+                'botBottomBlack': '#212529' // for the bottest
             },
             spacing: {
                 '15': '3.75rem'

@@ -45,7 +45,7 @@ export default class Team extends React.Component {
             <section id="Team" className="px-2 clean-block about-us">
                 <div className="container sm:px-4">
                     <div className="block-heading">
-                        <h2 className="text-textBlue text-3xl font-medium text-center pt-9">Team</h2>
+                        <h2 className="text-companyBlue text-3xl font-medium text-center pt-9">Team</h2>
                         <p className="text-center py-7">The team of professionals in their fields&nbsp;<br/></p>
                     </div>
                     <div className="flex flex-wrap  justify-center">

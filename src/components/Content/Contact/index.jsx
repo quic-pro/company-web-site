@@ -4,10 +4,10 @@ import React from 'react';
 export default class Index extends React.Component {
     render() {
         return (
-            <section id="Contact" className="contact-clean bg-contactUs">
+            <section id="Contact" className="contact-clean bg-companyBlue-100">
                 <div className="container py-20">
                     <form method="post" className="bg-white p-10 max-w-lg mx-auto">
-                        <h2 className="text-textBlue text-3xl font-medium text-center py-9">Contact us</h2>
+                        <h2 className="text-companyBlue text-3xl font-medium text-center py-9">Contact us</h2>
                         <div className="mb-3">
                             <input
                                 className="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"

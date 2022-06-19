@@ -11,22 +11,22 @@ import { FiRefreshCcw } from 'react-icons/fi';
 export default class Projects extends React.Component {
     projects = [
         {
-            icon: <AiOutlineStar className="fill-textBlue box-border h-10 w-10 pr-4"/>,
+            icon: <AiOutlineStar className="fill-companyBlue box-border h-10 w-10 pr-4"/>,
             direction: 'Cryptography',
             description: 'Development of technical solutions in the field of cryptography'
         },
         {
-            icon: <BsPencil className="fill-textBlue box-border h-10 w-10 pr-4"/>,
+            icon: <BsPencil className="fill-companyBlue box-border h-10 w-10 pr-4"/>,
             direction: 'Transmission security',
             description: 'Establishment of the defended and channels of communication'
         },
         {
-            icon: <GiSmartphone className="fill-textBlue box-border h-10 w-10 pr-4"/>,
+            icon: <GiSmartphone className="fill-companyBlue box-border h-10 w-10 pr-4"/>,
             direction: 'Blockchain',
             description: 'Implementation of projects related to blockchain and NFT'
         },
         {
-            icon: <FiRefreshCcw className="stroke-textBlue box-border h-10 w-10 pr-4"/>,
+            icon: <FiRefreshCcw className="stroke-companyBlue box-border h-10 w-10 pr-4"/>,
             direction: 'Metaverses',
             description: 'Combining real world and meta-verses through digital technological introduction'
         }
@@ -37,7 +37,7 @@ export default class Projects extends React.Component {
             <section id="Projects" className="px-2 clean-block features">
                 <div className="container sm:px-4 py-2">
                     <div className="block-heading">
-                        <h2 className="text-textBlue text-3xl font-medium text-center py-9">Projects</h2>
+                        <h2 className="text-companyBlue text-3xl font-medium text-center py-9">Projects</h2>
                     </div>
                     <div className="flex flex-wrap  justify-center">
                         {

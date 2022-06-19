@@ -23,7 +23,7 @@ export default class Header extends React.Component {
                             </div>
                             <div className="flex items-center md:hidden">
                                 <Disclosure.Button
-                                    className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-mainBlue focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                    className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-companyBlue focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                     <span className="sr-only">Open main menu</span>
                                     {open ? (
                                         <XIcon className="block h-6 w-6" aria-hidden="true"/>
@@ -55,7 +55,7 @@ export default class Header extends React.Component {
                                         key={item.name}
                                         as="a"
                                         href={item.href}
-                                        className="hover:bg-mainBlue hover:text-white block px-3 py-2 rounded-md text-base"
+                                        className="hover:bg-companyBlue hover:text-white block px-3 py-2 rounded-md text-base"
 
                                         aria-current={item.current ? 'page' : undefined}
                                     >
