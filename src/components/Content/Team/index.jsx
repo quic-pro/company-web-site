@@ -48,7 +48,7 @@ export default class Team extends React.Component {
                         <p className="text-3xl font-medium text-companyBlue-600 text-center">Team</p>
                         <p className="text-center mt-4 text-gray-400">The team of professionals in their fields</p>
                     </div>
-                    <div className="flex flex-wrap  justify-center">
+                    <div className="flex flex-wrap justify-center">
                         {this.team.map((employee, index) => <Employee employee={employee} key={index}/>)}
                     </div>
                 </div>
