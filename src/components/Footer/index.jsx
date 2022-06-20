@@ -4,9 +4,9 @@ import React from 'react';
 export default class Footer extends React.Component {
     render() {
         return (
-            <footer className="page-footer dark bg-bottomBlack">
+            <footer className="bg-bottomBlack">
                 <div className="container sm:px-4 mx-auto text-center py-10">
-                    <div className="flex flex-wrap text-white">
+                    <div className="flex flex-row flex-wrap text-white content-center place-content-center">
                         <div className="sm:w-1/4 px-4 py-2">
                             <h5 className="font-semibold py-2">Address</h5>
                             <ul>
