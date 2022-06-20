@@ -24,8 +24,8 @@ export default class Employee extends React.Component {
                 <div className="rounded border border-1 border-gray-300 text-center shadow-lg shadow-gray-400/30">
                     <img className="w-full rounded rounded-t w-full block" alt={employee.name}
                          src={'img/employees/' + employee.name + '.jpeg'}/>
-                    <div className="flex-auto p-6 info h-40 items-center justify-center mb-2">
-                        <h4 className="mb-3">{employee.name}</h4>
+                    <div className="flex-auto p-6 info h-40 items-center justify-center mb-2 ">
+                        <h4 className="mb-3 font-semibold">{employee.name}</h4>
                         <p className="mb-0">{employee.position}<br/></p>
                         <div className="flex justify-center">
                             {
