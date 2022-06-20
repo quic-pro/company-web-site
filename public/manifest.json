@@ -1,15 +1,30 @@
 {
-  "short_name": "Web site",
-  "name": "Web site",
+  "lang": "en",
+  "short_name": "QUIC-PRO Inc.",
+  "name": "QUIC-PRO Inc.",
+
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "/icon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#6bbff1",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "description": "Digital technologies unite people."
 }
