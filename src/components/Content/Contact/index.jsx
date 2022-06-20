@@ -15,7 +15,7 @@ export default class Index extends React.Component {
                         </div>
                         <div className="mb-3">
                             <input
-                                className="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded bg-red-700"
+                                className="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded border-red-700"
                                 type="email" name="email" placeholder="Email"/>
                             <small className="block mt-1 text-red-600">Please enter a correct email address.
                             </small>
