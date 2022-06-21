@@ -10,7 +10,7 @@ export default class Employee extends React.Component {
             name: PropType.string.isRequired,
             position: PropType.string.isRequired,
             contacts: PropType.arrayOf(PropType.shape({
-                icon: PropType.object.isRequired,
+                icon: PropType.func.isRequired,
                 url: PropType.string.isRequired
             })).isRequired
         }).isRequired
