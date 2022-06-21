@@ -1,22 +1,28 @@
 import React from 'react';
+import axios from 'axios';
+
+const urlApi = "https://api.quic.pro";
 
 
 export default class Contact extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = { name: '', email: '', message: '' };
-
-        this.setState(this.state);
     }
 
     handleChange = (event) =>{
          this.setState( {[event.target.name]: event.target.value });
     }
 
-    sendMessage = () => {
-        console.log(this.state);
+    handleClick = () => {
+        axios.post(`${urlApi}/site-form`, this.state, {headers: {'Content-Type': 'application/json'}})
+        .then(() => {
+            console.log("OK");
+        })
+        .catch(console.error);
     }
+
 
     render() {
         return (
@@ -39,13 +45,13 @@ export default class Contact extends React.Component {
                         <div className="mb-3">
                             <textarea
                                 className="block appearance-none max-h-32 w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                                name="message" placeholder="Message" rows={14} defaultValue="" value={this.state.message} onChange={this.handleChange}/>
+                                name="message" placeholder="Message" rows={14} value={this.state.message} onChange={this.handleChange}/>
                         </div>
                         <div className="mt-6 mb-3">
                             <button
                                 className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-3 px-7 leading-normal no-underline bg-blue-600 text-white hover:bg-blue-600"
                                 type="button"
-                                onClick={this.sendMessage}>
+                                onClick={this.handleClick}>
                                 SEND
                             </button>
                         </div>
