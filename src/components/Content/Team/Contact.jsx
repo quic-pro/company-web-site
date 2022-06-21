@@ -5,7 +5,7 @@ import PropType from 'prop-types'
 export default class Contact extends React.Component {
     static propTypes = {
         contact: PropType.shape({
-            icon: PropType.object.isRequired,
+            icon: PropType.func.isRequired,
             url: PropType.string.isRequired
         }).isRequired
     };

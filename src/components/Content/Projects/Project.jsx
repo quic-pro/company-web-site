@@ -5,7 +5,7 @@ import PropType from 'prop-types'
 export default class Project extends React.Component {
     static propTypes = {
         project: PropType.shape({
-            icon: PropType.object.isRequired,
+            icon: PropType.func.isRequired,
             direction: PropType.string.isRequired,
             description: PropType.string.isRequired
         }).isRequired
