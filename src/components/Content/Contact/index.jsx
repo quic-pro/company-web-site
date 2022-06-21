@@ -1,7 +1,23 @@
 import React from 'react';
 
 
-export default class Index extends React.Component {
+export default class Contact extends React.Component {
+
+    constructor() {
+        super();
+        this.state = { name: '', email: '', message: '' };
+
+        this.setState(this.state);
+    }
+
+    handleChange = (event) =>{
+         this.setState( {[event.target.name]: event.target.value });
+    }
+
+    sendMessage = () => {
+        console.log(this.state);
+    }
+
     render() {
         return (
             <section id="Contact" className="bg-companyBlue-100">
@@ -11,24 +27,25 @@ export default class Index extends React.Component {
                         <div className="mt-5 mb-3">
                             <input
                                 className="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                                type="text" name="name" placeholder="Name"/>
+                                type="text" name="name" placeholder="Name" value={this.state.name} onChange={this.handleChange}/>
                         </div>
                         <div className="mb-3">
                             <input
                                 className="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded border-red-700"
-                                type="email" name="email" placeholder="Email"/>
+                                type="email" name="email" placeholder="Email" value={this.state.email} onChange={this.handleChange}/>
                             <small className="block mt-1 text-red-600">Please enter a correct email address.
                             </small>
                         </div>
                         <div className="mb-3">
                             <textarea
                                 className="block appearance-none max-h-32 w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                                name="message" placeholder="Message" rows={14} defaultValue={""}/>
+                                name="message" placeholder="Message" rows={14} defaultValue="" value={this.state.message} onChange={this.handleChange}/>
                         </div>
                         <div className="mt-6 mb-3">
                             <button
                                 className="inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded py-3 px-7 leading-normal no-underline bg-blue-600 text-white hover:bg-blue-600"
-                                type="submit">
+                                type="button"
+                                onClick={this.sendMessage}>
                                 SEND
                             </button>
                         </div>
