@@ -39,7 +39,7 @@ export default class Projects extends React.Component {
                     <div className="mb-8">
                         <p className="text-3xl font-medium text-companyBlue-600 text-center">Projects</p>
                     </div>
-                    <div className="flex flex-wrap  justify-center">
+                    <div className="flex flex-wrap justify-center">
                         {
                             this.projects.map((project, index) => <Project project={project} key={index}/>)
                         }

@@ -17,9 +17,7 @@ export default class Contact extends React.Component {
 
     handleClick = () => {
         axios.post(`${urlApi}/site-form`, this.state, {headers: {'Content-Type': 'application/json'}})
-        .then(() => {
-            console.log("OK");
-        })
+        .then(console.log)
         .catch(console.error);
     }
 
