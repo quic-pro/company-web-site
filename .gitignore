@@ -16,3 +16,6 @@ package-lock.json
 
 # MacOS
 /**/.DS_Store
+
+# Enviroment
+/.env
