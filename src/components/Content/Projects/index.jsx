@@ -5,10 +5,9 @@ import {BsPencil} from 'react-icons/bs';
 import {GiSmartphone} from 'react-icons/gi';
 import {FiRefreshCcw} from 'react-icons/fi';
 
-import Project from './Project';
+import ProjectBlock from './ProjectBlock';
 
-
-export default class Projects extends React.Component {
+export default class ProjectList extends React.Component {
     projects = [
         {
             icon: AiOutlineStar,
@@ -41,7 +40,7 @@ export default class Projects extends React.Component {
                     </div>
                     <div className="flex flex-wrap justify-center">
                         {
-                            this.projects.map((project, index) => <Project project={project} key={index}/>)
+                            this.projects.map((project, index) => <ProjectBlock entity={project} key={index}/>)
                         }
                     </div>
                 </div>

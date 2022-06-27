@@ -2,7 +2,7 @@ import React from 'react';
 
 import Preview from './Preview';
 import About from './About';
-import Projects from './Projects';
+import ProjectList from './Projects';
 import Team from './Team';
 import Contact from './Contact';
 
@@ -13,7 +13,7 @@ export default class Content extends React.Component {
             <main>
                 <Preview/>
                 <About/>
-                <Projects/>
+                <ProjectList/>
                 <Team/>
                 <Contact/>
             </main>
