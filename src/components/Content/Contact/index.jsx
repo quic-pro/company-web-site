@@ -1,10 +1,18 @@
 import React from 'react';
 import axios from 'axios';
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 
 import Alert from './alert';
 
 const urlApi = "https://api.quic.pro";
+
+class HideShowAlert extends React.Component {
+  render(){
+    return(
+  <Alert/>
+    )
+  }
+}
 
 export default class Contact extends React.Component {
 
@@ -37,7 +45,7 @@ export default class Contact extends React.Component {
         <div className="container py-20">
           <form method="post" className="bg-white p-10 max-w-lg mx-auto shadow-lg shadow-gray-400/30">
             <p className="text-companyBlue-600 text-3xl font-medium text-center">Contact us</p>
-            <Alert/>
+            <HideShowAlert />
             <div className="mt-5 mb-3">
               <input
                 className="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
