@@ -13,9 +13,9 @@ export default class Content extends React.Component {
     render() {
         return (
             <main>
-                <Preview/>
-                <About/>
                 <BannerCookie/>
+                <Preview/>
+                <About/>                
                 <ProjectList/>
                 <Team/>
                 <Contact/>
