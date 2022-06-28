@@ -6,14 +6,10 @@ import ProjectList from './Projects';
 import Team from './Team';
 import Contact from './Contact';
 
-import BannerCookie from './BannerCookie';
-
-
 export default class Content extends React.Component {
     render() {
         return (
             <main>
-                <BannerCookie/>
                 <Preview/>
                 <About/>                
                 <ProjectList/>
