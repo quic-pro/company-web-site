@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 
+import {BsInfoCircle} from 'react-icons/bs';
+
 export default class Contact extends React.Component {
 
   urlApi = "https://api.quic.pro";
@@ -49,9 +51,9 @@ export default class Contact extends React.Component {
               <div>
                 <div className="">
                   {this.state.isValidationCheck === false ?
-                    <div className="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="alert">
-                      <p className="font-bold">Be Warned</p>
-                      <p>Something not ideal might be happening.</p>
+                    <div className="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4 my-4" role="alert">
+                      <p className="font-bold">ERROR</p>
+                      <p>Please fill the correct name and email fields.</p>
                     </div>
                     : ''
                   }
@@ -81,7 +83,10 @@ export default class Contact extends React.Component {
                 </div>
               </div>
               :
-              "SUCCES!!!!!!!!"
+              <div className="flex flex-row items-center bg-companyBlue-600 text-white text-sm font-bold px-4 py-3 my-4" role="alert">
+                <BsInfoCircle className=" w-10 mx-2"/>
+                <p className="grow">Message sent.</p>
+              </div>
             }
           </div>
         </div>
