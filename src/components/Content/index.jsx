@@ -6,6 +6,8 @@ import ProjectList from './Projects';
 import Team from './Team';
 import Contact from './Contact';
 
+import BannerCookie from './BannerCookie';
+
 
 export default class Content extends React.Component {
     render() {
@@ -13,6 +15,7 @@ export default class Content extends React.Component {
             <main>
                 <Preview/>
                 <About/>
+                <BannerCookie/>
                 <ProjectList/>
                 <Team/>
                 <Contact/>
