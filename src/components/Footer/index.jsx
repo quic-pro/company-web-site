@@ -30,7 +30,7 @@ export default class Footer extends React.Component {
                             <ul>
                                 <li><a href="#">Terms of Service</a></li>
                                 <li><a href="#">Terms of Use</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="https://quic-pro.github.io/cookie-and-privacy-policy/">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
