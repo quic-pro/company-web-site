@@ -26,7 +26,7 @@ export default class Team extends React.Component {
         },
         {
             name: 'Aleksandr Rakhlenko',
-            position: 'Project - manager, planning and monitoring of the objectives specialist',
+            position: 'Project - manager, objectives planning and monitoring specialist',
             contacts: [
                 {
                     icon: FiFacebook,
@@ -46,7 +46,7 @@ export default class Team extends React.Component {
                 <div className="container py-20">
                     <div className="mb-8">
                         <p className="text-3xl font-medium text-companyBlue-600 text-center">Team</p>
-                        <p className="text-center mt-4 text-gray-400">The team of professionals in their fields</p>
+                        <p className="text-center mt-4 text-gray-400"></p>
                     </div>
                     <div className="flex flex-wrap justify-center">
                         {this.team.map((employee, index) => <Employee employee={employee} key={index}/>)}
