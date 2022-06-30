@@ -6,7 +6,7 @@ import './index.css';
 import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
-import BannerCookie from './components/Content/BannerCookie';
+import BannerCookie from './components/BannerCookie';
 
 import reportWebVitals from './reportWebVitals';
 
