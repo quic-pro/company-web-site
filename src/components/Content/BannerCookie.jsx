@@ -19,11 +19,7 @@ export default class BannerCookie extends React.Component {
             <p className="grow-0 text-left"> to ensure you get the best experience on our website.</p>
             </div>
             <div className="flex flex-row">
-              <div className="cursor-pointer px-6 pt-2 pb-4 md:px-0 md:pt-0 md:pb-0" data-behavior="decline-cookie-consent">
-                <button className="md:mb-0 ml-0 md:ml-4 px-3 py-1 border-companyBlue-600 rounded-lg bg-companyBlue-100 text-companyBlue-600 hover:bg-companyBlue-150 text-xl">
-                  <a href="https://www.google.com/"> Decline </a>
-                </button>
-              </div>
+              
               <div className="cursor-pointer px-6 pt-2 pb-4 md:px-0 md:pt-0 md:pb-0" data-behavior="accept-cookie-consent">
                 <button className="md:mb-0 ml-0 md:ml-4 px-3 py-1 border-companyBlue-600 rounded-lg bg-companyBlue-100 text-companyBlue-600 hover:bg-companyBlue-150 text-xl"
                   onClick={() => this.setState({isAccept:true})}
