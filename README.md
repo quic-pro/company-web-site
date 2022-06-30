@@ -1,4 +1,4 @@
-# MVTS Site
+# QUIC-PRO Inc. site
 
 ## Official site version
 [quic.pro](https://quic.pro/)
