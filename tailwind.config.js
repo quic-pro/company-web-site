@@ -23,13 +23,14 @@ module.exports = {
                     600: '#09a2ff',
                     700: '#3b99e0',
                 },
-                'errorRed':
-                {
+                'errorRed': {
                     100: '#fff4f0', // for bg
                     200: '#df0000', // for text & border 
                 },
-                'bottomBlack': '#2b2f31', // for bottom
-                'botBottomBlack': '#212529' // for the bottest
+                'bottomBlack': {
+                    DEFAULT: '#2b2f31', // bg bottom
+                    100: '#212529', // bg the bottest
+                },
             },
             spacing: {
                 '15': '3.75rem'

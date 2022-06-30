@@ -35,7 +35,7 @@ export default class Footer extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="bg-botBottomBlack py-3">
+                <div className="bg-bottomBlack-100 py-3">
                     <p className="text-white text-center">© 2022 QUIC-PRO INC.</p>
                 </div>
             </footer>
