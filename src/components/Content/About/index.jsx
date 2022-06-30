@@ -6,7 +6,7 @@ import coverImg from './cover.jpg';
 export default class About extends React.Component {
     render() {
         return (
-            <section id="About" className="bg-companyLightGray">
+            <section id="About" className="bg-companyBlue-100">
                 <div className="container py-20">
                     <div className="mb-8">
                         <p className="text-3xl font-medium text-companyBlue-600 text-center">About Us</p>

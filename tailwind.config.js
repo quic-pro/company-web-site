@@ -18,9 +18,9 @@ module.exports = {
                 'companyLightGray': '#f6f6f6',
                 'companyBlue': {
                     DEFAULT: '#6bbff1', // companyBlue-500
-                    100: '#f1f7fc',
-                    500: '#6bbff1',
-                    600: '#09a2ff',
+                    100: '#f1f7fc', // for bg
+                    500: '#6bbff1', // for icons
+                    600: '#09a2ff', // for headers
                     700: '#3b99e0',
                 },
                 'errorRed': {
