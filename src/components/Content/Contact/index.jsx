@@ -51,7 +51,7 @@ export default class Contact extends React.Component {
               <div>
                 <div className="">
                   {this.state.isValidationCheck === false ?
-                    <div className="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4 my-4" role="alert">
+                    <div className="bg-errorRed-100 border-l-4 border-errorRed-200 text-errorRed-200 p-4 my-4" role="alert">
                       <p className="font-bold">ERROR</p>
                       <p>Please fill the correct name and email fields.</p>
                     </div>

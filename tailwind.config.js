@@ -23,6 +23,11 @@ module.exports = {
                     600: '#09a2ff',
                     700: '#3b99e0',
                 },
+                'errorRed':
+                {
+                    100: '#fff4f0', // for bg
+                    200: '#df0000', // for text & border 
+                },
                 'bottomBlack': '#2b2f31', // for bottom
                 'botBottomBlack': '#212529' // for the bottest
             },
