@@ -75,11 +75,10 @@ export default class Contact extends React.Component {
                 </div>
                 <div className="mt-6 mb-3">
                   <button
-                        className="mb-2 inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline bg-gray-100 text-gray-800 hover:bg-gray-200 py-3 px-4 leading-tight text-xl"
+                        className="mb-2 inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline bg-companyBlue-100 text-companyBlue-600 hover:bg-companyBlue-150 py-3 px-4 leading-tight text-xl"
                         type="button"
-                        style={{color: '#0d6efd', textDecoration: 'none'}}
                     onClick={this.handlerPostForm}>
-                    SEND
+                    Send
                   </button>
                 </div>
               </div>

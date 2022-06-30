@@ -11,9 +11,9 @@ export default class Preview extends React.Component {
                         religions. Only a conversation can lead to agreement.<br/>
                     </p>
                     <button
-                        className="mb-2 inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline bg-gray-100 text-gray-800 hover:bg-gray-200 py-3 px-4 leading-tight text-xl"
+                        className="mb-2 inline-block align-middle text-center select-none border font-normal whitespace-no-wrap rounded  no-underline bg-companyBlue-100 text-companyBlue-600 hover:bg-companyBlue-150 py-3 px-4 leading-tight text-xl"
                         type="button" data-bs-target="#contact">
-                        <a href="#Contact" style={{color: '#0d6efd', textDecoration: 'none'}}>
+                        <a href="#Contact">
                             Contact Us
                         </a>
                     </button>

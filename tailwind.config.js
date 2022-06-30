@@ -15,13 +15,15 @@ module.exports = {
                 }
             },
             colors: {
-                'companyLightGray': '#f6f6f6',
+                'companyLightGray': '#f6f6f6', //old bg
                 'companyBlue': {
                     DEFAULT: '#6bbff1', // companyBlue-500
-                    100: '#f1f7fc', // for bg
+                    100: '#f1f7fc', // for bg & button
+                    150: '#e9f0f4', // for button hover
                     500: '#6bbff1', // for icons
                     600: '#09a2ff', // for headers
                     700: '#3b99e0',
+                    800: '#0d6efd', // old text button                    
                 },
                 'errorRed': {
                     100: '#fff4f0', // for bg
