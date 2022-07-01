@@ -5,7 +5,7 @@ export default class Preview extends React.Component {
     render() {
         return (
             <section className="bg-[url('components/Content/Preview/background.jpg')] bg-no-repeat bg-cover">
-                <div className="pt-28 pb-16 md:w-full lg:w-3/4 xl:w-1/2 text-center whitespace-normal mx-auto">
+                <div className="pt-32 pb-16 md:w-full lg:w-3/4 xl:w-1/2 text-center whitespace-normal mx-auto">
                     <p className="pb-7 text-white md:text-3xl sm:text-3xl font-medium">
                         We are here to provide communication for people of all nationalities, countries and
                         religions. Only a conversation can lead to agreement.<br/>
