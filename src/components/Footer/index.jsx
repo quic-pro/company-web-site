@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
                         <div className="sm:w-1/4 px-4 py-2">
                             <h5 className="font-semibold py-2">Address</h5>
                             <ul>
-                                <li><a className="text-sm">651 N Broad St Suite 206<br />Middletown, DE 19709 US<br /></a></li>
+                                <li><a className="text-sm">8 The Green St STE A<br />Dover, DE 19901 US<br /></a></li>
                             </ul>
                         </div>
                         <div className="sm:w-1/4 px-4 py-2">
