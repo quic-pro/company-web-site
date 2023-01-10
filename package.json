@@ -5,24 +5,28 @@
   "author": "Sergey Bondarenko <sergey@quic.pro> and Svetlana Apalkova <svetlana@quic.pro> QUIC-PRO Inc. developers",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "lint": "eslint src/**/*.js src/**/*.jsx"
+    "tailwind:build": "tailwind build -i src/tailwind.css -c tailwind.config.js -o src/tailwind.output.css",
+    "start": "react-app-rewired start",
+    "prestart": "npm run tailwind:build",
+    "build": "react-app-rewired build",
+    "prebuild": "npm run tailwind:build",
+    "lint": "eslint ./src"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.4",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
     "axios": "^0.27.2",
     "dotenv": "^16.0.1",
     "envalid": "^7.3.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
+    "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
