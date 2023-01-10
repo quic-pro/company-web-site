@@ -1,21 +1,16 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# MacOS
+/**/.DS_Store
 
 # Development
-/.vs
+/.vscode
 /.idea
 
 # Dependencies
 /node_modules
-package-lock.json
 
-# Testing
-/coverage
-
-# Production
+# Product
+/src/tailwind.output.css
 /build
 
-# MacOS
-/**/.DS_Store
-
-# Enviroment
-/.env
+# Environment
+.env*.local
