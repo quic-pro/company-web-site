@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './index.css';
-import './tailwind.output.css';
+import './style.css';
 
 import Header from './components/Header';
 import Content from './components/Content';
