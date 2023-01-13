@@ -1,11 +1,11 @@
 import React from 'react';
 import {FiFacebook, FiLinkedin, FiGithub} from 'react-icons/fi'
 
-import Employee from './Employee';
+import Employee, {EmployeeData} from './Employee';
 
 
-export default class Team extends React.Component {
-    team = [
+export default function Team() {
+    const employees: EmployeeData[] = [
         {
             name: 'Egor Zudin',
             position: 'СЕО, blockchain entrepreneur ',
@@ -40,19 +40,18 @@ export default class Team extends React.Component {
         }
     ];
 
-    render() {
-        return (
-            <section id="Team">
-                <div className="container py-20">
-                    <div className="mb-8">
-                        <p className="text-3xl font-medium text-companyBlue-600 text-center">Team</p>
-                        <p className="text-center mt-4 text-gray-400"></p>
-                    </div>
-                    <div className="flex flex-wrap justify-center">
-                        {this.team.map((employee, index) => <Employee employee={employee} key={index}/>)}
-                    </div>
+    return (
+        <section id="Team">
+            <div className="container py-20">
+                <div className="mb-8">
+                    <p className="text-3xl font-medium text-companyBlue-600 text-center">Team</p>
+                    <p className="text-center mt-4 text-gray-400"></p>
                 </div>
-            </section>
-        );
-    }
+                <div className="flex flex-wrap justify-center">
+                    {employees.map((employeeData, index) => <Employee employeeData={employeeData} key={index}/>)}
+                </div>
+            </div>
+        </section>
+    );
 }
+
