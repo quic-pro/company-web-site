@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-export default class Footer extends React.Component {
-    render() {
+export default function Footer() {
         return (
             <footer className="bg-bottomBlack">
                 <div className="container sm:px-4 mx-auto text-center py-10">
@@ -41,4 +40,4 @@ export default class Footer extends React.Component {
             </footer>
         );
     }
-}
+
