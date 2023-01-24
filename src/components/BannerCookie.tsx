@@ -8,8 +8,10 @@ export default function BannerCookie() {
         localStorage.setItem('cookiesAccepted', 'true');
         setIsAccept(true);
     }
-
-    return isAccept && (
+    if (isAccept) {
+        return null;
+    }
+    return (
         <div
             className="fixed left-0 bottom-0 right-0 px-4 pt-2 pb-4 md:py-2 bg-companyBlue-700 z-10 border-t border-blue-700 text-center flex flex-col-reverse md:flex-row items-center justify-center text-white"
             id="cookie-consent">
