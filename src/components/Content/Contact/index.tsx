@@ -11,7 +11,7 @@ export default function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [isValidationCheck, setIsValidationCheck] = useState(false);
+  const [isValidationCheck, setIsValidationCheck] = useState<boolean | null>(null);
 
   const handlerChangePostData = (event: any, setState: (newValue: string) => void) => {
     setState(event.target.value);
