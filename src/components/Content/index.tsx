@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Preview from './Preview';
 import About from './About';
+import Contact from './Contact';
+import Preview from './Preview';
 import ProjectList from './Projects';
 import Team from './Team';
-import Contact from './Contact';
 
 
 export default function Content() {

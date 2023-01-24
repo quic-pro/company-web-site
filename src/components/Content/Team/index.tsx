@@ -1,5 +1,5 @@
 import React from 'react';
-import {FiFacebook, FiLinkedin, FiGithub} from 'react-icons/fi'
+import {FiFacebook, FiGithub, FiLinkedin} from 'react-icons/fi';
 
 import Employee, {EmployeeData} from './Employee';
 
@@ -12,17 +12,17 @@ export default function Team() {
             contacts: [
                 {
                     icon: FiFacebook,
-                    url: 'https://www.facebook.com/egzudin/'
+                    url: 'https://www.facebook.com/egzudin/',
                 },
                 {
                     icon: FiLinkedin,
-                    url: 'https://www.linkedin.com/in/egor-zuidn/'
+                    url: 'https://www.linkedin.com/in/egor-zuidn/',
                 },
                 {
                     icon: FiGithub,
-                    url: 'https://github.com/verificatorrus'
-                }
-            ]
+                    url: 'https://github.com/verificatorrus',
+                },
+            ],
         },
         {
             name: 'Aleksandr Rakhlenko',
@@ -30,14 +30,14 @@ export default function Team() {
             contacts: [
                 {
                     icon: FiFacebook,
-                    url: 'https://www.facebook.com/aleksandr.rakhlenko/'
+                    url: 'https://www.facebook.com/aleksandr.rakhlenko/',
                 },
                 {
                     icon: FiLinkedin,
-                    url: 'https://www.linkedin.com/in/aleksandr-rakhlenko-1b3479233/'
-                }
-            ]
-        }
+                    url: 'https://www.linkedin.com/in/aleksandr-rakhlenko-1b3479233/',
+                },
+            ],
+        },
     ];
 
     return (

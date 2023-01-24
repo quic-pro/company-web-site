@@ -1,13 +1,12 @@
+import './style.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './style.css';
-
-import Header from './components/Header';
+import BannerCookie from './components/BannerCookie';
 import Content from './components/Content';
 import Footer from './components/Footer';
-import BannerCookie from './components/BannerCookie';
-
+import Header from './components/Header';
 import {reportWebVitals} from './reportWebVitals';
 
 
@@ -18,7 +17,7 @@ root.render(
         <Content/>
         <Footer/>
         <BannerCookie/>
-    </React.StrictMode>
+    </React.StrictMode>,
 );
 
 

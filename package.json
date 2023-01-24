@@ -7,7 +7,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "lint": "eslint ./src",
+    "lint": "eslint .",
     "lint:fix": "yarn lint --fix"
   },
   "dependencies": {
