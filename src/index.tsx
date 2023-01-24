@@ -8,7 +8,7 @@ import Content from './components/Content';
 import Footer from './components/Footer';
 import BannerCookie from './components/BannerCookie';
 
-import reportWebVitals from './reportWebVitals';
+import {reportWebVitals} from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);

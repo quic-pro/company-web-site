@@ -6,10 +6,10 @@
 /.idea
 
 # Dependencies
+/yarn-error.log
 /node_modules
 
 # Product
-/src/tailwind.output.css
 /build
 
 # Environment
