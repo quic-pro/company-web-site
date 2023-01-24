@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Contact, {ContactData} from './Contact';
 
 

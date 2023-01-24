@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 export default function Preview() {
     return (
         <section className="bg-[url('components/Content/Preview/background.jpg')] bg-no-repeat bg-cover">

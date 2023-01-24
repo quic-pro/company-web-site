@@ -1,4 +1,3 @@
-import React from 'react';
 import {AiOutlineStar} from 'react-icons/ai';
 import {BsPencil} from 'react-icons/bs';
 import {FiRefreshCcw} from 'react-icons/fi';
@@ -30,6 +29,7 @@ export default function ProjectList() {
             description: 'Combining real world and meta-verses through digital technological introduction',
         },
     ];
+
     return (
         <section id="Projects" className="px-2 clean-block features">
             <div className="container py-20">

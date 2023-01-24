@@ -2,8 +2,8 @@ import axios from 'axios';
 import {ChangeEvent, useState} from 'react';
 import {BsInfoCircle} from 'react-icons/bs';
 
-export default function Contact() {
 
+export default function Contact() {
     const urlApi = 'https://api.quic.pro';
     const emailRegExp = /^(([^\s"(),.:;<>@[\\\]]+(\.[^\s"(),.:;<>@[\\\]]+)*)|(".+"))@((\[(?:\d{1,3}\.){3}\d{1,3}])|(([\dA-Za-z-]+\.)+[A-Za-z]{2,}))$/;
 
@@ -37,6 +37,7 @@ export default function Contact() {
         setIsValidationCheck(true);
         return true;
     };
+
     return (
         <section id="Contact" className="bg-companyBlue-100">
             <div className="container py-20">

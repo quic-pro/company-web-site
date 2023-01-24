@@ -1,4 +1,3 @@
-import React from 'react';
 import {FiFacebook, FiGithub, FiLinkedin} from 'react-icons/fi';
 
 import Employee, {EmployeeData} from './Employee';

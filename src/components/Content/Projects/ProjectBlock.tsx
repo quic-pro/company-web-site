@@ -1,5 +1,5 @@
-import React from 'react';
 import {IconType} from 'react-icons';
+
 
 type Props = {
     projectData: ProjectData;
@@ -10,6 +10,7 @@ export type ProjectData = {
     direction: string;
     description: string;
 };
+
 
 export default function ProjectBlock({projectData}: Props) {
     return (

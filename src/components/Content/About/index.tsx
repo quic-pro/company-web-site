@@ -1,5 +1,3 @@
-import React from 'react';
-
 import coverImg from './cover.jpg';
 
 
