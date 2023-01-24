@@ -1,7 +1,6 @@
 module.exports = {
     content: [
-        './public/**/*.html',
-        './src/**/*.{js,jsx}'
+        './src/**/*.tsx'
     ],
     theme: {
         extend: {
@@ -23,11 +22,11 @@ module.exports = {
                     500: '#6bbff1', // for icons
                     600: '#09a2ff', // for headers
                     700: '#3b99e0',
-                    800: '#0d6efd', // old text button                    
+                    800: '#0d6efd', // old text button
                 },
                 'errorRed': {
                     100: '#fff4f0', // for bg
-                    200: '#df0000', // for text & border 
+                    200: '#df0000', // for text & border
                 },
                 'bottomBlack': {
                     DEFAULT: '#2b2f31', // bg bottom

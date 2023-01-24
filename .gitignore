@@ -1,21 +1,16 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# Development
-/.vs
-/.idea
-
-# Dependencies
-/node_modules
-package-lock.json
-
-# Testing
-/coverage
-
-# Production
-/build
-
 # MacOS
 /**/.DS_Store
 
-# Enviroment
-/.env
+# Development
+/.vscode
+/.idea
+
+# Dependencies
+/yarn-error.log
+/node_modules
+
+# Product
+/build
+
+# Environment
+.env*.local
