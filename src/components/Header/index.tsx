@@ -4,16 +4,14 @@ import {Disclosure} from '@headlessui/react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 
-export default class Header extends React.Component {
-    navigation = [
+export default function Header(){
+   const navigation = [
         {name: 'About Us', href: '#About'},
         {name: 'Projects', href: '#Projects'},
         {name: 'Team', href: '#Team'},
         {name: 'Contact Us', href: '#Contact'}
     ];
-
-    render() {
-        return (
+    return (
             <Disclosure as="header" className="fixed h-15 w-full bg-white shadow-lg shadow-gray-400/30 z-50">
                 {({open}) => (
                     <>
@@ -34,12 +32,11 @@ export default class Header extends React.Component {
                             </div>
                             <div className="hidden md:block">
                                 <div className="flex text-sm font-medium uppercase text-gray-500">
-                                    {this.navigation.map((item) => (
+                                    {navigation.map((item) => (
                                         <a
                                             key={item.name}
                                             href={item.href}
                                             className="mx-5 p-1 hover:text-gray-800 rounded"
-                                            aria-current={item.current ? 'page' : undefined}
                                         >
                                             {item.name}
                                         </a>
@@ -50,14 +47,12 @@ export default class Header extends React.Component {
 
                         <Disclosure.Panel className="bg-white md:hidden shadow-lg shadow-gray-400/30">
                             <div className="container px-2 pt-2 pb-3 space-y-1 text-sm font-medium uppercase text-gray-500">
-                                {this.navigation.map((item) => (
+                                {navigation.map((item) => (
                                     <Disclosure.Button
                                         key={item.name}
                                         as="a"
                                         href={item.href}
                                         className="hover:bg-companyBlue-100 block px-3 py-2 rounded-md text-base"
-
-                                        aria-current={item.current ? 'page' : undefined}
                                     >
                                         {item.name}
                                     </Disclosure.Button>
@@ -69,4 +64,3 @@ export default class Header extends React.Component {
             </Disclosure>
         )
     }
-}
